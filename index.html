@@ -49,19 +49,15 @@
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-              </div>
-              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-             
-               
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Pages</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Contact</a></li>
-                 
-            
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
               </ul>
             </div>
             <a class="btn btn-ghost text-xl">Hockey’s</a>
@@ -279,7 +275,7 @@
         </div>
       </section>
       <!-- new products section -->
-      <section class="container mx-auto my-25">
+      <section class="container mx-auto my-24">
         <div class="text-center space-y-6 mb-8">
           <h6 class="font-extrabold text-4xl">Our New Products</h6>
           <p class="text-[#13131899] px-9">
@@ -320,7 +316,10 @@
                 <div class="text-[#FF4240] font-extrabold text-xl">
                   Price - $22.00
                 </div>
-                <div class="text-[#13131899]">Delivery Fee : Free</div>
+                <div class="text-[#13131899]">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  Delivery Fee : Free
+                </div>
               </div>
             </div>
           </div>
@@ -355,7 +354,10 @@
                 <div class="text-[#FF4240] font-extrabold text-xl">
                   Price - $22.00
                 </div>
-                <div class="text-[#13131899]">Delivery Fee : Free</div>
+                <div class="text-[#13131899]">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  Delivery Fee : Free
+                </div>
               </div>
             </div>
           </div>
@@ -389,7 +391,10 @@
                 <div class="text-[#FF4240] font-extrabold text-xl">
                   Price - $22.00
                 </div>
-                <div class="text-[#13131899]">Delivery Fee : Free</div>
+                <div class="text-[#13131899]">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  Delivery Fee : Free
+                </div>
               </div>
             </div>
           </div>
@@ -423,7 +428,10 @@
                 <div class="text-[#FF4240] font-extrabold text-xl">
                   Price - $22.00
                 </div>
-                <div class="text-[#13131899]">Delivery Fee : Free</div>
+                <div class="text-[#13131899]">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  Delivery Fee : Free
+                </div>
               </div>
             </div>
           </div>
@@ -559,7 +567,7 @@
               <input
                 type="text"
                 placeholder="Write your message"
-                class="bg-[#13131808] input input-bordered input-lg w-full h-[370px] placeholder:top-5 placeholder:left-5"
+                class="bg-[#13131808] input input-bordered place-content-start w-full h-[370px]"
               />
             </form>
             <button
