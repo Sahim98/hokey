@@ -41,13 +41,10 @@
       .font-manrope {
         font-family: "Manrope", sans-serif;
       }
-      .placeholder-style::placeholder {
-        padding: 5px 12px;
-        margin: 5px;
-      }
+   
     </style>
   </head>
-  <body>
+  <body class="font-manrope">
     <header class="container mx-auto">
       <nav>
         <div class="navbar bg-base-100">
@@ -81,7 +78,7 @@
           </div>
         </div>
       </nav>
-      <div class="relative">
+      <div class="relative ">
         <div class="carousel w-full mt-14">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="Images/1.png" class="w-full" />
@@ -590,11 +587,8 @@
 
             <form class="space-y-4">
               <h3 class="font-semibold">Message:</h3>
-              <input
-                type="text"
-                placeholder="Write your message"
-                class="bg-[#13131808] input input-bordered w-full h-[370px] placeholder-style"
-              />
+              <textarea class="bg-[#13131808]  textarea textarea-bordered w-full h-full" rows="20" placeholder="Write your message"></textarea>
+           
             </form>
             <button
               class="w-full bg-[#FF4240] text-white text-xl font-semibold py-4 rounded-xl mt-8"
@@ -613,7 +607,8 @@
         </div>
       </section>
     </main>
-    <footer class="footer p-10 bg-[#131318] text-base-content mt-24">
+    <footer class="footer p-10 bg-[#131318] mt-24
+    grid grid-cols-1 lg:grid-cols-3">
       <div class="space-y-5">
         <h3 class="text-white font-extrabold text-3xl">Get In Touch</h3>
         <p class="text-[#FFFFFF99]">
@@ -631,8 +626,9 @@
           </div>
         </div>
       </div>
+     <div class="flex  w-full justify-between  ">
       <nav class="text-white">
-        <header class="font-extrabold text-2xl">Company</header>
+        <header class="font-extrabold text-2xl mb-7">Company</header>
         <div class="text-[#FFFFFF99] flex flex-col space-y-2">
           <a class="link link-hover">About us</a>
           <a class="link link-hover">Leadership</a>
@@ -641,8 +637,8 @@
           <a class="link link-hover">Legal Notice</a>
         </div>
       </nav>
-      <nav class="text-white">
-        <header class="font-extrabold text-2xl">Support</header>
+      <nav class="text-white ">
+        <header class="font-extrabold text-2xl text-center mb-7">Support</header>
         <div class="text-[#FFFFFF99] flex flex-col space-y-2">
           <a class="link link-hover">Help Center</a>
           <a class="link link-hover">FAQ</a>
@@ -650,15 +646,18 @@
           <a class="link link-hover">Contact Us</a>
         </div>
       </nav>
-      <nav class="text-white">
-        <header class="text-white font-extrabold text-2xl">Services</header>
-        <div class="text-[#FFFFFF99] flex flex-col space-y-2">
+     </div>
+      <nav class="text-white  w-full flex justify-center items-center ">
+       <div>
+        <header class="text-white font-extrabold text-2xl w-full mb-7">Services</header>
+        <div class="text-[#FFFFFF99] flex flex-col space-y-2 w-full">
           <a class="link link-hover">Academy</a>
           <a class="link link-hover">Group Lesson</a>
           <a class="link link-hover">Private Lesson</a>
           <a class="link link-hover">Hockeys for kids</a>
           <a class="link link-hover">Hockeys for Adult</a>
         </div>
+       </div>
       </nav>
     </footer>
   </body>
