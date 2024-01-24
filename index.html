@@ -42,9 +42,9 @@
         font-family: "Manrope", sans-serif;
       }
       .placeholder-style::placeholder {
-       padding: 5px 12px;
-       margin: 5px;
-    }
+        padding: 5px 12px;
+        margin: 5px;
+      }
     </style>
   </head>
   <body>
@@ -210,7 +210,7 @@
       </section>
       <!-- program section -->
       <section class="container mx-auto">
-        <div class="text-center space-y-6 mb-8">
+        <div class="text-center space-y-6 mb-8 border-dashed border-[#13131833] border-t-2 border-b-2 py-8">
           <h6 class="font-extrabold text-4xl">Program Sections</h6>
           <p class="text-[#13131899] px-9">
             Dit amet consectetur. Condimentum dignissim adipiscing aliquam
@@ -280,7 +280,7 @@
       </section>
       <!-- new products section -->
       <section class="container mx-auto my-24">
-        <div class="text-center space-y-6 mb-8">
+        <div class="text-center space-y-6 mb-8 border-dashed border-[#13131833] border-t-2 border-b-2 py-8">
           <h6 class="font-extrabold text-4xl">Our New Products</h6>
           <p class="text-[#13131899] px-9">
             Dit amet consectetur. Condimentum dignissim adipiscing aliquam
@@ -292,10 +292,10 @@
         <div class="gap-6 grid grid-cols-1 lg:grid-cols-2">
           <!-- card  -->
           <div
-            class="flex gap-5 px-11 py-6 border border-[#1313181A] rounded-2xl"
+            class="flex flex-col lg:flex-row gap-5 px-11 py-6 border border-[#1313181A] rounded-2xl"
           >
-            <div>
-              <img src="Images/5.png" alt="" />
+            <div class=" ">
+              <img src="Images/5.png" class="w-full" />
             </div>
             <div class="space-y-4">
               <div class="flex gap-4">
@@ -330,10 +330,10 @@
 
           <!-- card  -->
           <div
-            class="flex gap-5 px-11 py-6 border border-[#1313181A] rounded-2xl"
+            class="flex flex-col lg:flex-row gap-5 px-11 py-6 border border-[#1313181A] rounded-2xl"
           >
             <div>
-              <img src="Images/8.png" alt="" />
+              <img src="Images/8.png" class="w-full"  />
             </div>
             <div class="space-y-4">
               <div class="flex gap-4">
@@ -367,10 +367,10 @@
           </div>
           <!-- card  -->
           <div
-            class="flex gap-5 px-11 py-6 border border-[#1313181A] rounded-2xl"
+            class="flex flex-col lg:flex-row gap-5 px-11 py-6 border border-[#1313181A] rounded-2xl"
           >
             <div>
-              <img src="Images/9.png" alt="" />
+              <img src="Images/9.png" class="w-full"  />
             </div>
             <div class="space-y-4">
               <div class="flex gap-4">
@@ -404,10 +404,10 @@
           </div>
           <!-- card  -->
           <div
-            class="flex gap-5 px-11 py-6 border border-[#1313181A] rounded-2xl"
+            class="flex flex-col lg:flex-row gap-5 px-11 py-6 border border-[#1313181A] rounded-2xl"
           >
             <div>
-              <img src="Images/10.png" alt="" />
+              <img src="Images/10.png" class="w-full"  />
             </div>
             <div class="space-y-4">
               <div class="flex gap-4">
@@ -443,7 +443,7 @@
       </section>
       <!-- client question -->
       <section class="my-24">
-        <div class="text-center space-y-6 mb-12">
+        <div class="text-center space-y-6 mb-12 border-dashed border-[#13131833] border-t-2 border-b-2 py-8">
           <h6 class="font-extrabold text-4xl">Clients Question</h6>
           <p class="text-[#13131899] px-9">
             Dit amet consectetur. Condimentum dignissim adipiscing aliquam
@@ -456,7 +456,7 @@
             <img src="Images/11.png" class="h-full w-full" />
           </div>
           <div class="w-full space-y-6">
-            <div class="collapse collapse-plus bg-base-200">
+            <div class="collapse collapse-plus bg-base-200 ">
               <input type="radio" name="my-accordion-3" checked="checked" />
               <div class="collapse-title text-xl font-medium">
                 Our Equipment
@@ -512,7 +512,7 @@
       </section>
       <!-- get in touch section -->
       <section class="mt-24 mb-12">
-        <div class="text-center space-y-6 mb-8">
+        <div class="text-center space-y-6 mb-8 border-dashed border-[#13131833] border-t-2 border-b-2 py-8">
           <h6 class="font-extrabold text-4xl">Get In Touch</h6>
           <p class="text-[#13131899] px-9">
             Dit amet consectetur. Condimentum dignissim adipiscing aliquam
@@ -521,15 +521,35 @@
           </p>
         </div>
         <!-- contact container -->
-        <div class="grid lg:grid-cols-2 gap-6">
-          <div class="space-y-6 bg-[#BCED6D1A] rounded-2xl p-8">
-            <img src="Images/Group 1171275317.png" alt="" />
-            <div>
-              <p class="text-[#13131899]">Phone Number :</p>
-            <h3 class="font-extrabold">(+62) 123-321-543</h3>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <!-- contact card -->
+          <div
+            class="border-2 border-[#1313181A] flex flex-col p-12 justify-between row-span-1 rounded-2xl"
+          >
+            <div class="space-y-6 bg-[#BCED6D1A] rounded-2xl p-8">
+              <img src="Images/Group 1171275317.png" alt="" />
+              <div>
+                <p class="text-[#13131899]">Phone Number :</p>
+                <h3 class="font-extrabold">(+62) 123-321-543</h3>
+              </div>
+            </div>
+
+            <div class="space-y-6 bg-[#629CF31A] rounded-2xl p-8">
+              <img src="Images/Group 1171275321.png" alt="" />
+              <div>
+                <p class="text-[#13131899]">Location :</p>
+                <h3 class="font-extrabold">152/1 Mohakhali Wireless Gate</h3>
+              </div>
+            </div>
+            <div class="space-y-6 bg-[#FDDD5F1A] rounded-2xl p-8">
+              <img src="Images/Group 1171275318.png" alt="" />
+              <div>
+                <p class="text-[#13131899]">Email :</p>
+                <h3 class="font-extrabold">hockeys@support.com</h3>
+              </div>
             </div>
           </div>
-          <div class="row-span-3 space-y-6">
+          <div class="row-span-1 space-y-6">
             <div class="flex gap-6">
               <div class="space-y-4 w-full">
                 <h3 class="font-semibold">Your Name</h3>
@@ -573,8 +593,7 @@
               <input
                 type="text"
                 placeholder="Write your message"
-                class="bg-[#13131808] input input-bordered 
-                 w-full h-[370px] placeholder-style"
+                class="bg-[#13131808] input input-bordered w-full h-[370px] placeholder-style"
               />
             </form>
             <button
@@ -582,21 +601,6 @@
             >
               Send Message
             </button>
-          </div>
-
-          <div class="space-y-6 bg-[#FDDD5F1A] rounded-2xl p-8">
-            <img src="Images/Group 1171275318.png" alt="" />
-            <div>
-              <p class="text-[#13131899]">Email :</p>
-              <h3 class="font-extrabold">hockeys@support.com</h3>
-            </div>
-          </div>
-          <div class="space-y-6 bg-[#629CF31A] rounded-2xl p-8">
-            <img src="Images/Group 1171275321.png" alt="" />
-            <div>
-              <p class="text-[#13131899]">Location :</p>
-              <h3 class="font-extrabold">152/1 Mohakhali Wireless Gate</h3>
-            </div>
           </div>
         </div>
       </section>
