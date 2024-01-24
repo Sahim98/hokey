@@ -31,6 +31,7 @@
             colors: {
               "gradient-start": "#FF8938",
               "gradient-end": "#F00",
+              "red-t": "#FF4240",
             },
           },
         },
@@ -94,7 +95,7 @@
           </div>
         </div>
         <div
-          class="absolute bottom-5 right-5 p-8 space-y-4 rounded-2xl w-1/3 bg-[#131318] text-white"
+          class="lg:absolute lg:bottom-5 lg:right-5 p-8 space-y-4 rounded-2xl lg:w-1/3 bg-[#131318] text-white"
         >
           <h2 class="font-extrabold text-2xl">
             Meet all the heroes from the field
@@ -109,9 +110,9 @@
     <main class="container mx-auto">
       <!-- progress section -->
       <section class="mt-12 mb-24">
-        <div class="flex">
+        <div class="flex flex-col lg:flex-row">
           <!-- 1st progress -->
-          <div class="text-center space-y-5">
+          <div class="text-center space-y-5 p-5">
             <div
               class="radial-progress text-[#FF4240]"
               style="--value: 87"
@@ -126,7 +127,7 @@
             </p>
           </div>
           <!-- 2nd progress -->
-          <div class="text-center space-y-5">
+          <div class="text-center space-y-5 p-5">
             <div
               class="radial-progress text-[#49D293]"
               style="--value: 95"
@@ -141,7 +142,7 @@
             </p>
           </div>
           <!-- 3rd progress -->
-          <div class="text-center space-y-5 gap-8">
+          <div class="text-center space-y-5 gap-8 p-5">
             <div
               class="radial-progress text-[#FFB546]"
               style="--value: 90"
@@ -155,24 +156,195 @@
               Amet consectetur. Condimentum dignissim adipiscing .
             </p>
           </div>
-            <!-- 4th progress -->
-            <div class="text-center space-y-5">
-                <div
-                  class="radial-progress text-[#4C8DF1]"
-                  style="--value: 80"
-                  role="progressbar"
-                >
-                  <div class="text-black font-extrabold text-2xl">90%</div>
-                </div>
-                <br />
-                <h class="font-semibold">Training Ground</h>
-                <p class="text-[#13131899]">
-                  Amet consectetur. Condimentum dignissim adipiscing .
-                </p>
-              </div>
+          <!-- 4th progress -->
+          <div class="text-center space-y-5 p-5">
+            <div
+              class="radial-progress text-[#4C8DF1]"
+              style="--value: 80"
+              role="progressbar"
+            >
+              <div class="text-black font-extrabold text-2xl">90%</div>
+            </div>
+            <br />
+            <h class="font-semibold">Training Ground</h>
+            <p class="text-[#13131899]">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
         </div>
       </section>
+      <!-- new products section -->
+      <section class="container mx-auto ">
+        <div class="text-center space-y-6 mb-8 ">
+          <h6 class="font-extrabold text-4xl">Our New Products</h6>
+          <p class="text-[#13131899] px-9">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. 
+          </p>
+        </div>
+        <!-- card container -->
+        <div class="gap-6 grid grid-cols-1 lg:grid-cols-2">
+          <!-- card  -->
+          <div
+            class="flex gap-5 px-11 py-6 border border-[#1313181A] rounded-2xl"
+          >
+            <div>
+              <img src="Images/5.png" alt="" />
+            </div>
+            <div class="space-y-4">
+              <div class="flex gap-4">
+                <div class="flex gap-2 items-center text-[#13131899]">
+                  <i class="fa-solid fa-star text-yellow-500"></i>
+                  <p>5.0</p>
+                </div>
+                <div class="flex gap-2 items-center text-[#13131899]">
+                  <i class="fa-regular fa-eye"></i>
+                  <p>20</p>
+                </div>
+                <div class="flex gap-2 items-center text-[#13131899]">
+                  <i class="fa-regular fa-heart"></i>
+                  <p>200</p>
+                </div>
+              </div>
+              <h2 class="font-extrabold text-xl">World Cup Flags Football</h2>
+              <p class="text-[#13131899]">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              </p>
+              <div class="flex gap-5">
+                <div class="text-[#FF4240] font-extrabold text-xl">
+                  Price - $22.00
+                </div>
+                <div class="text-[#13131899]">Delivery Fee : Free</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- card  -->
+          <div
+            class="flex gap-5 px-11 py-6 border border-[#1313181A] rounded-2xl"
+          >
+            <div>
+              <img src="Images/8.png" alt="" />
+            </div>
+            <div class="space-y-4">
+              <div class="flex gap-4">
+                <div class="flex gap-2 items-center text-[#13131899]">
+                  <i class="fa-solid fa-star text-yellow-500"></i>
+                  <p>5.0</p>
+                </div>
+                <div class="flex gap-2 items-center text-[#13131899]">
+                  <i class="fa-regular fa-eye"></i>
+                  <p>20</p>
+                </div>
+                <div class="flex gap-2 items-center text-[#13131899]">
+                  <i class="fa-regular fa-heart"></i>
+                  <p>200</p>
+                </div>
+              </div>
+              <h2 class="font-extrabold text-xl">World Cup Flags Football</h2>
+              <p class="text-[#13131899]">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              </p>
+              <div class="flex gap-5">
+                <div class="text-[#FF4240] font-extrabold text-xl">
+                  Price - $22.00
+                </div>
+                <div class="text-[#13131899]">Delivery Fee : Free</div>
+              </div>
+            </div>
+          </div>
+          <!-- card  -->
+          <div
+            class="flex gap-5 px-11 py-6 border border-[#1313181A] rounded-2xl"
+          >
+            <div>
+              <img src="Images/9.png" alt="" />
+            </div>
+            <div class="space-y-4">
+              <div class="flex gap-4">
+                <div class="flex gap-2 items-center text-[#13131899]">
+                  <i class="fa-solid fa-star text-yellow-500"></i>
+                  <p>5.0</p>
+                </div>
+                <div class="flex gap-2 items-center text-[#13131899]">
+                  <i class="fa-regular fa-eye"></i>
+                  <p>20</p>
+                </div>
+                <div class="flex gap-2 items-center text-[#13131899]">
+                  <i class="fa-regular fa-heart"></i>
+                  <p>200</p>
+                </div>
+              </div>
+              <h2 class="font-extrabold text-xl">World Cup Flags Football</h2>
+              <p class="text-[#13131899]">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              </p>
+              <div class="flex gap-5">
+                <div class="text-[#FF4240] font-extrabold text-xl">
+                  Price - $22.00
+                </div>
+                <div class="text-[#13131899]">Delivery Fee : Free</div>
+              </div>
+            </div>
+          </div>
+          <!-- card  -->
+          <div
+            class="flex gap-5 px-11 py-6 border border-[#1313181A] rounded-2xl"
+          >
+            <div>
+              <img src="Images/10.png" alt="" />
+            </div>
+            <div class="space-y-4">
+              <div class="flex gap-4">
+                <div class="flex gap-2 items-center text-[#13131899]">
+                  <i class="fa-solid fa-star text-yellow-500"></i>
+                  <p>5.0</p>
+                </div>
+                <div class="flex gap-2 items-center text-[#13131899]">
+                  <i class="fa-regular fa-eye"></i>
+                  <p>20</p>
+                </div>
+                <div class="flex gap-2 items-center text-[#13131899]">
+                  <i class="fa-regular fa-heart"></i>
+                  <p>200</p>
+                </div>
+              </div>
+              <h2 class="font-extrabold text-xl">World Cup Flags Football</h2>
+              <p class="text-[#13131899]">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              </p>
+              <div class="flex gap-5">
+                <div class="text-[#FF4240] font-extrabold text-xl">
+                  Price - $22.00
+                </div>
+                <div class="text-[#13131899]">Delivery Fee : Free</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- get in touch section -->
+      <section class="mt-24 mb-12">
+        <div class="text-center space-y-6 mb-8 ">
+          <h6 class="font-extrabold text-4xl">Get In Touch</h6>
+          <p class="text-[#13131899] px-9">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. 
+          </p>
+        </div>
+        <div>
+
+        </div>
+      </section>
+      <!-- social media -->
+      <section class="text-center bg-[#13131808] rounded-xl py-9">
+        <h3 class="font-extrabold text-2xl ">Social Media</h3>
+       <div class="flex justify-center mt-6">
+        <img src="Images/Social.png" >
+       </div>
+
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      
+    </footer>
   </body>
 </html>
