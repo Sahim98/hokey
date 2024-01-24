@@ -41,6 +41,10 @@
       .font-manrope {
         font-family: "Manrope", sans-serif;
       }
+      .placeholder-style::placeholder {
+       padding: 5px 12px;
+       margin: 5px;
+    }
     </style>
   </head>
   <body>
@@ -518,10 +522,12 @@
         </div>
         <!-- contact container -->
         <div class="grid lg:grid-cols-2 gap-6">
-          <div class="bg-[#BCED6D1A] rounded-2xl p-8">
+          <div class="space-y-6 bg-[#BCED6D1A] rounded-2xl p-8">
             <img src="Images/Group 1171275317.png" alt="" />
-            <p>Phone Number :</p>
-            <h3>(+62) 123-321-543</h3>
+            <div>
+              <p class="text-[#13131899]">Phone Number :</p>
+            <h3 class="font-extrabold">(+62) 123-321-543</h3>
+            </div>
           </div>
           <div class="row-span-3 space-y-6">
             <div class="flex gap-6">
@@ -568,7 +574,7 @@
                 type="text"
                 placeholder="Write your message"
                 class="bg-[#13131808] input input-bordered 
-                 w-full h-[370px]"
+                 w-full h-[370px] placeholder-style"
               />
             </form>
             <button
@@ -578,15 +584,19 @@
             </button>
           </div>
 
-          <div class="bg-[#FDDD5F1A] rounded-2xl p-8">
+          <div class="space-y-6 bg-[#FDDD5F1A] rounded-2xl p-8">
             <img src="Images/Group 1171275318.png" alt="" />
-            <p>Email :</p>
-            <h3>hockeys@support.com</h3>
+            <div>
+              <p class="text-[#13131899]">Email :</p>
+              <h3 class="font-extrabold">hockeys@support.com</h3>
+            </div>
           </div>
-          <div class="bg-[#629CF31A] rounded-2xl p-8">
+          <div class="space-y-6 bg-[#629CF31A] rounded-2xl p-8">
             <img src="Images/Group 1171275321.png" alt="" />
-            <p>Location :</p>
-            <h3>152/1 Mohakhali Wireless Gate</h3>
+            <div>
+              <p class="text-[#13131899]">Location :</p>
+              <h3 class="font-extrabold">152/1 Mohakhali Wireless Gate</h3>
+            </div>
           </div>
         </div>
       </section>
