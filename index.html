@@ -45,7 +45,42 @@
   </head>
   <body>
     <header class="container mx-auto">
-      <nav></nav>
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+             
+               
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                 
+            
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl">Hockey’s</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li class="text-red-600"><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end gap-3">
+            <i class="fa-solid fa-magnifying-glass text-black h-7 w-7"></i>
+            <a class="btn bg-[#FF4240] text-white font-semibold">Get Ticket</a>
+          </div>
+        </div>
+      </nav>
       <div class="relative">
         <div class="carousel w-full mt-14">
           <div id="slide1" class="carousel-item relative w-full">
@@ -185,7 +220,7 @@
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12">
           <div
-            class="rounded-2xl hero lg:min-h-screen "
+            class="rounded-2xl hero lg:min-h-screen"
             style="background-image: url(Images/2.png)"
           >
             <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
@@ -197,17 +232,18 @@
                   assumenda excepturi exercitationem quasi. In deleniti eaque
                   aut repudiandae et a id nisi.
                 </p>
-                <button class="btn btn-primary  border-0 bg-[#FF4240]">Register Now!</button>
+                <button class="btn btn-primary border-0 bg-[#FF4240]">
+                  Register Now!
+                </button>
               </div>
             </div>
           </div>
           <div
-            class="rounded-2xl hero lg:min-h-screen  "
+            class="rounded-2xl hero lg:min-h-screen"
             style="background-image: url(Images/3.png)"
           >
             <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
-            <div class="hero-content text-center 
-            text-neutral-content ">
+            <div class="hero-content text-center text-neutral-content">
               <div class="max-w-md text-left">
                 <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
                 <p class="mb-5">
@@ -215,7 +251,9 @@
                   assumenda excepturi exercitationem quasi. In deleniti eaque
                   aut repudiandae et a id nisi.
                 </p>
-                <button class="btn btn-primary border-0 bg-[#FF4240]">Register Now!</button>
+                <button class="btn btn-primary border-0 bg-[#FF4240]">
+                  Register Now!
+                </button>
               </div>
             </div>
           </div>
@@ -232,7 +270,9 @@
                   assumenda excepturi exercitationem quasi. In deleniti eaque
                   aut repudiandae et a id nisi.
                 </p>
-                <button class="border-0 btn btn-primary bg-[#FF4240]">Register Now!</button>
+                <button class="border-0 btn btn-primary bg-[#FF4240]">
+                  Register Now!
+                </button>
               </div>
             </div>
           </div>
@@ -552,8 +592,11 @@
     </main>
     <footer class="footer p-10 bg-[#131318] text-base-content mt-24">
       <div class="space-y-5">
-        <h3  class="text-white font-extrabold text-3xl">Get In Touch.</h3>
-        <p class="text-[#FFFFFF99]">Dit amet consectetur. <br>Condimentum  adipiscing aliquam turpis placerat dolor. <br>Purus urna in sit nullam proin. </p>
+        <h3 class="text-white font-extrabold text-3xl">Get In Touch.</h3>
+        <p class="text-[#FFFFFF99]">
+          Dit amet consectetur. <br />Condimentum adipiscing aliquam turpis
+          placerat dolor. <br />Purus urna in sit nullam proin.
+        </p>
         <div class="">
           <div class="flex items-center gap-2">
             <i class="fa-regular fa-envelope text-red-400"></i>
@@ -566,7 +609,7 @@
         </div>
       </div>
       <nav class="text-white">
-        <header class=" font-extrabold text-2xl">Company</header>
+        <header class="font-extrabold text-2xl">Company</header>
         <div class="text-[#FFFFFF99] flex flex-col space-y-2">
           <a class="link link-hover">About us</a>
           <a class="link link-hover">Leadership</a>
@@ -574,28 +617,24 @@
           <a class="link link-hover">News & Article</a>
           <a class="link link-hover">Legal Notice</a>
         </div>
-       
       </nav>
       <nav class="text-white">
-        <header class=" font-extrabold text-2xl">Support</header>
+        <header class="font-extrabold text-2xl">Support</header>
         <div class="text-[#FFFFFF99] flex flex-col space-y-2">
           <a class="link link-hover">Help Center</a>
           <a class="link link-hover">FAQ</a>
           <a class="link link-hover">Ticket Suppor</a>
           <a class="link link-hover">Contact Us</a>
-
         </div>
-      
       </nav>
       <nav class="text-white">
         <header class="text-white font-extrabold text-2xl">Services</header>
         <div class="text-[#FFFFFF99] flex flex-col space-y-2">
-
-        <a class="link link-hover">Academy</a>
-        <a class="link link-hover">Group Lesson</a>
-        <a class="link link-hover">Private Lesson</a>
-        <a class="link link-hover">Hockeys for kids</a>
-        <a class="link link-hover">Hockeys for Adult</a>
+          <a class="link link-hover">Academy</a>
+          <a class="link link-hover">Group Lesson</a>
+          <a class="link link-hover">Private Lesson</a>
+          <a class="link link-hover">Hockeys for kids</a>
+          <a class="link link-hover">Hockeys for Adult</a>
         </div>
       </nav>
     </footer>
